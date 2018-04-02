@@ -5,7 +5,7 @@ A simple records system using MongoDB, Express.js, React.js, and Node.js with re
 
 Demo: [https://mern-crud.herokuapp.com/](https://mern-crud.herokuapp.com/)
 
-![MERN CRUD Screenshot](screenshot.png)
+![MERN CRUD Screenshot](Screenshot.png)
 
 ## Instructions
 
