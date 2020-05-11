@@ -11,7 +11,7 @@ const config = require('./config/db');
 mongoose.Promise = global.Promise;
 
 // Connect to the database
-mongoose.connect(config.db);
+mongoose.connect('mongodb://localhost:27017');
 let db = mongoose.connection;
 
 db.on('open', () => {
@@ -52,7 +52,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start the server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 const server = app.listen(port, () => {
   console.log(`Listening on port ${port}`);
